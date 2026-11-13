@@ -1,0 +1,7 @@
+experiment,classifier,n_features,accuracy,f1,runtime_sec,features
+Baseline-KNN,KNN,30,0.9683583959899748,0.9653944912314214,,all
+Baseline-SVM,SVM,30,0.9754385964912281,0.9736477017495249,,all
+Baseline-RF,RF,30,0.956140350877193,0.9525991010108662,,all
+MLWFS-KNN,KNN,9,0.9736528822055138,0.9713917115100894,5.621119333009119,"mean concavity, texture error, perimeter error, area error, smoothness error, concavity error, worst radius, worst texture, worst smoothness"
+MLWFS-SVM,SVM,10,0.9789473684210526,0.9772977251510933,7.338985750000575,"mean texture, mean perimeter, mean concave points, area error, fractal dimension error, worst radius, worst texture, worst area, worst smoothness, worst symmetry"
+MLWFS-RF,RF,5,0.9754385964912281,0.9733690219961406,157.2086022500007,"mean concave points, area error, worst texture, worst area, worst smoothness"
