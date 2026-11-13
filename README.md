@@ -103,6 +103,9 @@ Upload a CSV (or use the built-in Breast Cancer demo), pick the target column an
 size and trials, then click **Run MLWFS**. Results, plots and nested CV are shown in tabs, and you can
 download the results as CSV.
 
+App extras: runtime estimate before you run, friendly errors for bad targets / tiny classes, a feature-overlap
+table across classifiers, PNG download for every plot, and an **About** tab that explains the method.
+
 **Command line**
 ```bash
 python main.py --classifiers KNN SVM RF --trials 100 --nested
